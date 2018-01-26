@@ -1,0 +1,48 @@
+@import "components/main/_reset.scss";
+@import "components/main/_header.scss";
+@import "components/main/_footer.scss";
+.menu {
+    margin-right: 2em;
+}
+
+main {
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    .tactual {
+        color: white;
+        width: 30%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 2em;
+        border: 3px solid black;
+        border-radius: 1em;
+        background-color: #910048;
+    }
+    .carrito {}
+    #DLmenu {
+        margin: auto;
+        td {
+            padding: 0.3em;
+        }
+        input {
+            padding: 0.5em;
+            border-radius: 0.5em;
+            background-color: black;
+            color: white;
+        }
+        input:hover {
+            background-color: #ff925e;
+        }
+    }
+    .carta {
+        margin: auto;
+        width: 80%;
+        border-top: 2px solid black;
+        border-width: 0.3em;
+        border-radius: 1em;
+        #lvCarta {
+            margin-top: 0.5em;
+        }
+    }
+}

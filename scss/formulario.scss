@@ -1,0 +1,21 @@
+@import "components/main/_reset.scss";
+@import "components/main/_header.scss";
+@import "components/main/_footer.scss";
+body{
+    background-color: rgb(146, 138, 141);
+}
+
+.formulario{
+    padding: 1.2em;
+    text-align: center;
+    color: #FFFF;
+    .imagencontacto{
+        img{
+            border-radius: 1.5em;
+            padding: 0.7em;
+        }
+    }
+    input{
+        padding: 0.8em;
+    }
+}

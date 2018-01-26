@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,KAAK;CACvB;;AAED,AAAA,MAAM,CAAA;EACF,MAAM,EAAE,IAAI;CASf;;AAVD,AAEI,MAFE,CAEF,GAAG,CAAA;EACC,KAAK,EAAE,GAAG;CACb;;AAJL,AAMI,MANE,CAMF,QAAQ,CAAA;EACJ,MAAM,EAAE,WAAW;EACnB,aAAa,EAAE,GAAG;CACrB",
+    "sources": [
+        "../../scss/components/style_templates/nosotros.scss"
+    ],
+    "names": [],
+    "file": "nosotros.css"
+}
