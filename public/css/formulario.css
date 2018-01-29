@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -17,7 +18,11 @@ header {
 }
 
 .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -26,7 +31,11 @@ header {
 }
 
 .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin: auto;
   padding: 1em;
@@ -45,6 +54,19 @@ header {
   border-color: #FFFFFF;
 }
 
+@media screen and (max-width: 600px) {
+  header .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 footer {
   background-color: #231F20;
   padding: 0.5em;
@@ -56,6 +78,10 @@ footer .copyr {
 
 body {
   background-color: #928a8d;
+}
+
+form {
+  margin-top: 2em;
 }
 
 .formulario {
@@ -72,4 +98,3 @@ body {
 .formulario input {
   padding: 0.8em;
 }
-/*# sourceMappingURL=formulario.css.map */

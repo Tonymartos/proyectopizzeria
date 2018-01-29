@@ -36,7 +36,7 @@
                             DataKeyField="idCat">
                             <ItemTemplate>
                                 &nbsp;
-                                <asp:Button ID="Bcategoria" BackColor="#dedede" Font-Size="Medium" runat="server" Text='<%# Eval("categoria") %>' CommandName="Select"
+                                <asp:Button ID="Bcategoria" BackColor="#00000" class="btnCategoria" Font-Size="Medium" runat="server" Text='<%# Eval("categoria") %>' CommandName="Select"
                                 />
                             </ItemTemplate>
                         </asp:DataList>

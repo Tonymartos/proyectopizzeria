@@ -4,3 +4,20 @@
 @import "components/main/_footer.scss";
 @import "components/style_templates/main.scss";
 @import "components/style_templates/nosotros.scss";
+
+@media screen and (max-width:600px){
+    main{
+        .imagenDes{
+            display: flex;
+            flex-direction: column;
+        }
+        .productos{
+            display: flex;
+            flex-direction: column;
+        }
+        .tablon{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

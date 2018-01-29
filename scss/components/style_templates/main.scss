@@ -1,18 +1,18 @@
-main{
+main {
     margin: auto;
     width: 80%;
 }
 
-.imagenDes{
+.imagenDes {
     margin: auto;
     display: flex;
     justify-content: space-around;
     padding: 1em;
-    .ileft{
+    .ileft {
         width: 60%;
     }
-    .chef{
-        a{
+    .chef {
+        a {
             margin-top: 30%;
             font-size: 0.7em;
             text-align: center;
@@ -20,8 +20,7 @@ main{
     }
 }
 
-
-.mejoresprodc{
+.mejoresprodc {
     text-align: center;
     margin: auto;
     margin-top: 1.2em;
@@ -29,44 +28,40 @@ main{
     border-top: 2px solid;
     border-color: #646363;
     padding: 1em;
-    h2{
+    h2 {
         margin: auto;
     }
-
-    .productos{
-        display:flex;
+    .productos {
+        display: flex;
         justify-content: center;
-        p{
+        p {
             font-weight: bold;
             font-style: italic;
         }
     }
 }
 
-.noticias{
+.noticias {
     text-align: center;
     margin: auto;
     margin-top: 1.2em;
     border-top: 2px solid;
     border-color: #646363;
     padding: 1em;
-
-    h2{
+    h2 {
         margin: auto;
         margin-bottom: 0.5em;
     }
-
-    .tablon{
-        display:flex;
+    .tablon {
+        display: flex;
         justify-content: center;
-
-        aside{
+        aside {
             padding: 0.6em;
             margin-left: 0.7em;
             margin-left: 0.7em;
             border: 3px solid;
             border-radius: 1em;
-            img{
+            img {
                 width: 50%;
             }
         }
